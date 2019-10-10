@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="curriculum vitae OnePage Deryck Olivier">
+      <meta name="author" content="Deryck Olivier">
+      <title> Curriculum Vitae Deryck Olivier</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/fontawesome.min.css" rel="stylesheet">
+      <link href="css/vertical-timeline.css" rel="stylesheet">
+      <link href="css/simplelightbox.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body id="top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideBar">
+         <span class="mt-2 mb-2">
+         <img class="flag zoom" src="img/icons/drapeau-france.jpg" alt="français" onclick="txtlang('fr')"/>
+         <img class="flag zoom" src="img/icons/drapeau-anglais.jpg" alt="anglais" onclick="txtlang('en')"/>
+         </span>
+         <a class="js-scrollTo" href="#top">
+         <span class="d-block d-lg-none ">Deryck Olivier</span>
+         <span class="d-none d-lg-block">
+         <img class="img-fluid img-profile mx-auto mt-4 mb-2" src="img/pic/profil.jpg" alt="profile picture">
+         </span>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav" id="mainNav">
+               <li class="nav-item active">
+                  <a class="nav-link js-scrollTo" id="navAbout" href="#about"></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link js-scrollTo" id="navStudies" href="#studies"></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link js-scrollTo" id="navSkills" href="#skills"></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link js-scrollTo" id="navProjects" href="#projects"></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link js-scrollTo" id="navInterests" href="#interests"></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container-fluid p-0">
+         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class= "w-100">
+               <h1 class="mb-0">Deryck
+                  <span class="mb-0">Olivier</span>
+               </h1>
+               <div class="subheading mb-5">
+                  <p id="adress">
+               </div>
+               <p class="lead mb-5" id="prof_description"></p>
+            </div>
+         </section>
+         <hr>
+         <div class="container-fluid p-0">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="studies">
+               <div class="w-100">
+                  <h2 class="mb-0" id="studiespath"></h2>
+                  <div id="myTimeline" >
+                     <div id="std1" data-vtdate="2010-2016">
+                     </div>
+                     <div id="intern" data-vtdate="2016">		
+                     </div>
+                     <div id="std2" data-vtdate="2016-2017">			
+                     </div>
+                     <div id="std3" data-vtdate="2017- ">			
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <hr>
+         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div class="w-100">
+               <h2 class="mb-5" id="skillstitle"></h2>
+               <div id="progtitle" class="subheading mb-3"> </div>
+               <ul id="progskills"></ul>
+               <div id="methodotitle" class="subheading mb-3"></div>
+               <ul id="methodo"></ul>
+               <div id="selfskilltitle" class="subheading mb-3"></div>
+               <ul id="selfskill"></ul>
+            </div>
+         </section>
+         <hr>
+         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+            <div class="w-100">
+               <h2 id="projectsH" class="mb-0"> </h2>
+			   <p id="clickinfo"></p>
+               <p class="mb-3 subheading mt-0"> Sokoban (Java)</p>
+               <div class="gallery"> 
+                  <a href="img/gallery/sokoban-main.png" class="big">
+                  <img id="sokobanmain" class="galleryimg" src="img/gallery/sokoban-main.png" alt="sokoban menu" >
+                  </a>
+                  <a href="img/gallery/sokoban-play.png" class="big">
+                  <img id="sokobanplay" class="galleryimg" src="img/gallery/sokoban-play.png" alt="sokoban game" >
+                  </a>
+                  <a href="img/gallery/sokoban-editor.png" class="big">
+                  <img id="sokobaneditor" class="galleryimg" src="img/gallery/sokoban-editor.png" alt="sokoban level editor" >
+                  </a>
+               </div>
+               <p id="hackaton" class="mt-2 mb-3 subheading"></p>
+               <div class="gallery"> 
+                  <a href="img/gallery/hackaton.png" class="big">
+                  <img id="hackatonmenu" class="galleryimg" src="img/gallery/hackaton.png" alt="main movie library" >
+                  </a>
+                  <a href="img/gallery/hackaton1.png" class="big">
+                  <img id="hackatonexemple" class="galleryimg" src="img/gallery/hackaton1.png" alt="exemple movie list" >
+                  </a>
+               </div>
+               <p id="otherprojects" class="mt-2 mb-3 subheading"> </p>
+               <div class="gallery"> 
+                  <a href="img/gallery/car.jpg" class="big">
+                  <img id="car" class="galleryimg" src="img/gallery/car.jpg" alt="car" >
+                  </a>
+                  <a href="img/gallery/testeurcable.jpg" class="big">
+                  <img id="cabletester" class="galleryimg" src="img/gallery/testeurcable.jpg" alt="testeur cable" >
+                  </a>
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="interests">
+            <div class="w-100">
+               <h2 class="mb-5"></h2>
+               <div class="w-100" id="more"></div>
+               <div class="mt-5 w-100" id="hobbies"></div>
+               <div class="social-icons">
+                  <h2 class=" mt-5 subheading mb-3" id="morecontact"></h2>
+                  <a class="zoom" href="https://be.linkedin.com/in/olivier-deryck-ab3144164">
+                  <img src="img/icons/linkedin.png" alt="link to linkedin" title="link to linkedin">
+                  </a>
+               </div>
+            </div>
+         </section>
+      </div>
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/vertical-timeline.js"></script>
+      <script src="js/simple-lightbox.js"></script>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
